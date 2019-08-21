@@ -1,7 +1,10 @@
 package edu.eci.cvds.patterns.shapes;
 
 public class ShapeMain {
-
+	/**
+	 * Permite reconocer una figura así imprimiendo la cantidad de lados que tiene esta misma
+	 * @param String[] args es la clase de la figura que quieres consultar
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		if (args == null || args.length != 1) {

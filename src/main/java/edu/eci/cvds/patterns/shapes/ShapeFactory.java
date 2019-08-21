@@ -4,6 +4,11 @@ import edu.eci.cvds.patterns.shapes.concrete.*;
 
 public class ShapeFactory {
 	
+	/**
+	 * Este metodo crea una figura y la retorna
+	 * @param RegularShapeType type es algun tipo valido de la clase enum RegularShapeType
+	 * @return retorna una figura que implementa la interfaz Shape
+	 */
 	public static Shape create(RegularShapeType type) {
 		Shape shape = null;
 		switch (type) {
